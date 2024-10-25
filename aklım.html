@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>PSİKOBLOG</title>
+    <link rel="stylesheet" href="aklım.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <div class="header">
+        <img class="logo" src="ayse1.png" alt="">
+    </div>
+
+    <div id="YanMenu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      
+        &times;</a>
+      
+        <a class="a" href="anas.html">ANASAYFA</a>
+        <a class="a" href="blog.html">BLOG</a>
+       <a class="a" href="hakkımda.html">HAKKIMDA</a>
+        <a class="a" href="aklım.html">AKLIMA TAKILDI DA</a>
+       <a class="a" href="sizden.html">SİZDEN GELENLER</a>
+       <a class="a" href="iletisim.html">İLETİŞİM</a>
+       
+      </div>
+    <div class="ehu" id="ehu" >
+        <span class="ehuh" style="font-size:28px;cursor:pointer" onclick="openNav()">
+          &#9776; 
+          </span>
+          <button id="open">GİRİŞ YAP</button>
+      </div>
+          
+    <div class="wrap">
+        <div class="content">
+            <h1>AKLIMA TAKILDI DA</h1>
+            <HR></HR>
+            
+            <h3>Hayat nedir? Hayatta bir sürü şey yapıyor, doğuyor, öğreniyor, çalışıyor, ölüyoruz. Birçok şeyin nedenini soruyoruz. Hayatı hiç sormuyoruz. Tüm bu nedenselliğin içinde bulunduğu hayat ne olabilir?</h3>
+            
+            <h3>Peki Ya Sizce?</h3>
+            <h3>
+            Aklıma takıldı da dediğiniz soruları bize sorun, sorularınıza özel oluşturduğumuz sayfamızda cevaplandıralım.
+            </h3>
+            <br>
+            <hr>
+            <br>
+
+            <h2 class="baslik">İSTEDİĞİNİZ KONU BAŞLIKLARINI BİZİMLE PAYLAŞABİLİRSİNİZ</h2>
+            <form action="" id="formYapilacaklar">
+                <input type="text" name="" id="txtYapilacaklar">
+                <input type="button" value="Onay Listesine Ekle" id="btnEkle" onclick="listeyeEkle();">
+            </form>
+            <span class="ay">
+                <h4>ONAYLA</h4>
+                <h4>GÖNDERİLDİ</h4>
+                <ul id="listeYapilacaklar">
+                    <!--Boş Liste-->
+                </ul>
+                
+                <ul id="listeTamamlananlar">
+                    <!--Boş Liste-->
+                </ul>
+            </span>
+            <h5 id="sonuc"></h5>
+            
+            
+        </div><!--  İçerik -->
+         
+        
+     
+    </div>
+
+
+    <div class="alt_alan">
+        <p float="center" >
+         Psikoblog © Copyright 2020 – Tüm Hakları Saklıdır. Havan Design   
+        </p>
+    </div>
+
+    <dialog> 
+        <h2>GİRİŞ YAP</h2>
+        <form action=""> 
+            
+        <p>E-mail: <input type="text"></p>
+        
+    
+        <p>   Şifre: <input type="text"></p>
+        <p><button id="aç" type="submit">GİRİŞ YAP</button> 
+            <button id="kapat">KAPAT</button></p>
+        
+        </form>
+        </dialog>
+        
+    
+      
+      <script src="aklım.js"></script>
+      <script src="navbar.js"></script>
+      <script src="menü.js"></script>
+      
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+
+html { 
+    background: url(cristian-castillo-F0RukMFYluE-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(0, 0, 0); 
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    
+}
+img:hover {
+    transform: rotate(3deg);
+    transition: 0.5s; 
+   }
+.logo{
+    height: 200px;
+    width: 200px;
+    border-radius:  120px/120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 6px solid #695555;
+}
+
+.a{
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color:  #fcfcfc;
+    border: 1px solid#000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 13%;
+}
+
+.navbar a:hover{
+    background-color:#d39f97;
+    color: #000000;
+}
+
+.alt_alan{
+    
+    height: 130px; 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: auto;
+    width: 100%;
+
+}
+.alt_alan p{
+    
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    
+}
+
+button  { 
+    border-radius: 30px;
+     padding: 16px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color:  #fcfcfc;
+    border: 1px solid#000000;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    width:130px;
+    height: 28px;
+    color:rgb(253, 253, 253);
+    cursor: pointer;
+   
+    height: 28px;
+     background: #722411;
+     color:rgb(253, 253, 253);
+     cursor: pointer;
+    
+ 
+ }
+ #open{
+     margin: 10px 10px 10px 85%;
+     width: 200px;
+ }
+ #open:hover{
+    background-color:#96432e;
+ }
+button:hover{
+    background-color:#b6705f;
+    transition: 0.5s;
+}
+.wrap {
+    width: 100%;
+    height:auto;
+    margin:0 auto;
+    padding: 40px;
+    width: 100%;
+}
+.wrap div{
+    padding: 20px;
+}
+h1{
+    margin: auto;
+    display: flex;
+    font-size: 40px;
+    color:#9E5044;
+}
+
+h2{
+    border-left: 4px solid #9E5044;
+    padding-left: 40px;
+    color:#9E5044;
+}
+h2,p,h1{
+    padding: 20px;
+
+}
+#ehu{
+    background-color: blanchedalmond;
+}
+dialog {  
+    margin: auto; 
+    width:310px;
+    height: 310px;
+    text-align: center;
+    -webkit-box-shadow: 1px 0 2px black;
+    -moz-box-shadow: 1px 0 2px black;
+    box-shadow: 1px 0 2px black;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+#open{
+    margin: 10px 10px 10px 85%;
+    width: 200px;
+}
+
+h2 {  
+
+    padding: 2px;
+    margin: 2px;
+
+}
+
+
+input { 
+
+    width:200px;
+    height: 30px;
+    border:1px solid rgb(168, 168, 168);
+    border-radius: 8px;
+    font-size: 18px;
+    
+} 
+
+input:focus {  
+
+    color:#aa6a60;
+
+}
+.content{
+    width: 60%;
+    height:auto;
+    background-color:#ffffff;
+    display: flex;
+    border-radius: 7px;
+    margin: auto;
+    flex-direction: column;
+    
+	-webkit-box-shadow: 1px 0 2px black;
+	-moz-box-shadow: 1px 0 2px black;
+	box-shadow: 1px 0 2px black;
+    
+   
+}
+.submit,.kapat{
+    padding: 5px;
+}
+button{
+    border-radius: 30px;
+}
+.me{
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+}
+
+
+@media all and (max-width:500px){
+    .wrap,.navbar{
+   
+       width: 100%;
+    }
+       .navbar{
+        flex-direction: column;
+    }
+    .navbar a, button{
+        font-size: 16px;
+        width: 89%;
+        margin: auto;
+        padding: 4px;
+        text-align: center;
+        }
+    p{
+        font-size: 16px;
+    }
+    h1{ font-size: 30px;
+    
+    }
+    h2{ font-size: 20px;
+
+    }
+    .alt_alan{
+    
+        height: 100px; 
+    }
+    .logo{
+        height: 150px;
+        width: 150px;
+        border-radius:  90px/90px;
+    }
+    .me{
+        width: 150px;
+       
+    }
+    .content{
+        width: 85%;
+    }
+    #open{
+        margin: 10px 10px 10px 60%;
+    }
+}
+     
+        
+        
+    
+    @media all and (max-width:1200px) and (min-width:501px){
+        .me{
+            width: 175px;
+           
+        }
+        .content{
+            width: 70%;
+        }
+        .logo{
+            height: 175px;
+            width: 175px;
+            border-radius:  90px/90px;
+        }
+        .a{
+            font-size: 18px;
+          
+            justify-content: space-evenly;
+        }
+        .navbar{
+            justify-content: space-evenly;
+        }
+        p{
+            font-size: 18px;
+        }
+        .alt_alan{
+    
+            height: 115px; 
+        }
+        #open{
+            margin: 10px 10px 10px 75%;
+        }
+    }
+    
+    @media all and (min-width:1201px) and (max-width:3000px){
+        p{
+            font-size: 20px;
+        }
+        
+        
+    }

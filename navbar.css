@@ -1,0 +1,98 @@
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden; 
+  transition: 0.2s;
+  padding-top: 50px;
+}
+
+
+.ehu{
+    display: flex;
+    background-color: rgb(0, 0, 0) ; 
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    
+
+}
+.ehuh{
+    font-size: 25px;
+    margin-left: 2%;
+    color: aliceblue;
+
+   
+}
+.ehuh:hover{
+    color:#d39f97;
+    transition: 0.5s;
+}
+.sidenav .a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0f0f0f;
+  
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color:  #e4cece;
+    border: 1px solid#000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 80%;
+}
+
+
+.sidenav .a:hover {
+    
+    background-color:#d39f97;
+    color: #000000;
+
+}
+
+a{
+ padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #3d3737;
+  display: block;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+
+@media screen and (max-height: 500px) {
+ 
+  .ehuh{font-size: 16px;}
+  .sidenav .a{font-size: 14px;}
+
+}
+@media all and (max-width:1200px) and (min-width:501px){
+    .ehuh{font-size: 18px;}
+  .sidenav .a{font-size: 16px;}
+
+}
+
